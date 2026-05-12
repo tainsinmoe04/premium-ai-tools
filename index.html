@@ -255,148 +255,59 @@
 
     <div class="grid" id="productGrid"></div>
 
-    <script>
-      const products = [
-        {
-          id: 1,
-          name: "Google AI Pro (1 Year)",
-          price: "30,000 Ks",
-          desc: "Mail + Password ခဏပေးရပါမည်။",
-          category: "google",
-          warranty: "Standard",
-          warrantyType: "normal",
-        },
-        {
-          id: 2,
-          name: "Google AI Pro (4 Months)",
-          price: "20,000 Ks",
-          desc: "Mail + Password ခဏပေးရပါမည်။",
-          category: "google",
-          warranty: "Standard",
-          warrantyType: "normal",
-        },
-        {
-          id: 3,
-          name: "Google AI Pro (1 Year) Premium",
-          price: "42,000 Ks",
-          desc: "Ready Use Acc ပေးပါမည်။ Own acc အပိုင်ရမည်၊ ရှယ်သုံးရတာမဟုတ်ပါ။",
-          category: "google",
-          warranty: "1 Month Warranty",
-          warrantyType: "good-warranty",
-        },
-        {
-          id: 4,
-          name: "Google AI Pro (4 Months) Premium",
-          price: "40,000 Ks",
-          desc: "Ready Use Acc ပေးပါမည်။ Own acc အပိုင်ရမည်၊ ရှယ်သုံးရတာမဟုတ်ပါ။",
-          category: "google",
-          warranty: "2 Months Warranty",
-          warrantyType: "good-warranty",
-        },
-        {
-          id: 5,
-          name: "Google AI Ultra Plan",
-          price: "45,000 Ks / 90,000 Ks",
-          desc: "25000 Flow Credit ပါဝင်ပါသည်။",
-          category: "google",
-          warranty: "Official Plan",
-          warrantyType: "good-warranty",
-        },
-        {
-          id: 6,
-          name: "Supergrok",
-          price: "35,000 Ks",
-          desc: "Grok AI Premium Access.",
-          category: "ai",
-          warranty: "Standard",
-          warrantyType: "normal",
-        },
-        {
-          id: 7,
-          name: "ChatGPT Plus",
-          price: "35,000 Ks",
-          desc: "Account အဟောင်းမှာ သက်တမ်းတိုးလို့ရပါတယ်။",
-          category: "ai",
-          warranty: "No Warranty ⚠️",
-          warrantyType: "no-warranty",
-        },
-        {
-          id: 8,
-          name: "Canva Pro (6 Months)",
-          price: "50,000 Ks",
-          desc: "Private Account (No Edu). Premium features အားလုံးအသုံးပြုနိုင်ပါသည်။",
-          category: "creative",
-          warranty: "6 Months Support",
-          warrantyType: "good-warranty",
-        },
-        {
-          id: 9,
-          name: "Capcut Pro",
-          price: "23,000 Ks",
-          desc: "Whole - 3 Devices အသုံးပြုနိုင်ပါသည်။",
-          category: "creative",
-          warranty: "Standard",
-          warrantyType: "normal",
-        },
-        {
-          id: 10,
-          name: "Dremina Seedance 2.0 AI",
-          price: "Ask for Price",
-          desc: "1200+ AI Credits ပါဝင်ပါသည်။",
-          category: "creative",
-          warranty: "Standard",
-          warrantyType: "normal",
-        },
-        {
-          id: 11,
-          name: "Japan Tiktok",
-          price: "12,000 Ks",
-          desc: "Japan Region အထူးပြု Access.",
-          category: "creative",
-          warranty: "Standard",
-          warrantyType: "normal",
-        },
-      ];
+   <script>
+        const products = [
+            { id: 1, name: "Google AI Pro (1 Year)", price: "30,000 Ks", desc: "Mail + Password ခဏပေးရပါမည်။", category: "google", warranty: "Standard", warrantyType: "normal" },
+            { id: 2, name: "Google AI Pro (4 Months)", price: "20,000 Ks", desc: "Mail + Password ခဏပေးရပါမည်။", category: "google", warranty: "Standard", warrantyType: "normal" },
+            { id: 3, name: "Google AI Pro (1 Year) Premium", price: "42,000 Ks", desc: "Ready Use Acc ပေးပါမည်။ Own acc အပိုင်ရမည်၊ ရှယ်သုံးရတာမဟုတ်ပါ။", category: "google", warranty: "1 Month Warranty", warrantyType: "good-warranty" },
+            { id: 4, name: "Google AI Pro (4 Months) Premium", price: "40,000 Ks", desc: "Ready Use Acc ပေးပါမည်။ Own acc အပိုင်ရမည်၊ ရှယ်သုံးရတာမဟုတ်ပါ။", category: "google", warranty: "2 Months Warranty", warrantyType: "good-warranty" },
+            { id: 5, name: "Google AI Ultra Plan", price: "45,000 Ks / 90,000 Ks", desc: "25000 Flow Credit ပါဝင်ပါသည်။", category: "google", warranty: "Official Plan", warrantyType: "good-warranty" },
+            { id: 6, name: "Supergrok", price: "35,000 Ks", desc: "Grok AI Premium Access.", category: "ai", warranty: "Standard", warrantyType: "normal" },
+            { id: 7, name: "ChatGPT Plus", price: "35,000 Ks", desc: "Account အဟောင်းမှာ သက်တမ်းတိုးလို့ရပါတယ်။", category: "ai", warranty: "No Warranty ⚠️", warrantyType: "no-warranty" },
+            { id: 8, name: "Canva Pro (6 Months)", price: "50,000 Ks", desc: "Private Account (No Edu). Premium features အားလုံးအသုံးပြုနိုင်ပါသည်။", category: "creative", warranty: "6 Months Support", warrantyType: "good-warranty" },
+            { id: 9, name: "Capcut Pro", price: "23,000 Ks", desc: "Whole - 3 Devices အသုံးပြုနိုင်ပါသည်။", category: "creative", warranty: "Standard", warrantyType: "normal" },
+            { id: 10, name: "Dremina Seedance 2.0 AI", price: "Ask for Price", desc: "1200+ AI Credits ပါဝင်ပါသည်။", category: "creative", warranty: "Standard", warrantyType: "normal" },
+            { id: 11, name: "Japan Tiktok", price: "12,000 Ks", desc: "Japan Region အထူးပြု Access.", category: "creative", warranty: "Standard", warrantyType: "normal" }
+        ];
 
-      // Replace YOUR_TELEGRAM_USERNAME with your actual username
-      const telegramUsername = "tainsinmoe";
+        // 🚨 သတိပြုရန် - ဒီနေရာမှာ မင်းရဲ့ Telegram Username ကို ပြန်ထည့်ပေးဖို့ မမေ့ပါနဲ့
+        const telegramUsername = "YOUR_TELEGRAM_USERNAME";
 
-      function renderProducts(category) {
-        const grid = document.getElementById("productGrid");
-        grid.innerHTML = "";
+        function renderProducts(category) {
+            const grid = document.getElementById('productGrid');
+            grid.innerHTML = ''; 
+            
+            const filteredProducts = category === 'all' ? products : products.filter(p => p.category === category);
 
-        const filteredProducts =
-          category === "all"
-            ? products
-            : products.filter((p) => p.category === category);
+            filteredProducts.forEach((product, index) => {
+                const card = document.createElement('div');
+                card.className = 'card fade-in';
+                card.style.animationDelay = `${index * 0.04}s`; 
+                
+                // 💡 ဖုန်းရော PC ပါ အဆင်ပြေအောင် အသစ်ပြင်ထားတဲ့ အပိုင်း
+                const rawMessage = `Hello Tain Sin Moe!\n\nI would like to order:\n📦 ${product.name}\n💰 Price: ${product.price}\n\nPlease let me know how to proceed with the payment.`;
+                const safeMessage = encodeURIComponent(rawMessage);
+                const tgLink = `https://t.me/${telegramUsername}?text=${safeMessage}`;
 
-        filteredProducts.forEach((product, index) => {
-          const card = document.createElement("div");
-          card.className = "card fade-in";
-          card.style.animationDelay = `${index * 0.04}s`;
-
-          const message = `Hello Tain Sin Moe! %0A%0AI would like to order:%0A📦 ${product.name}%0A💰 Price: ${product.price}%0A%0APlease let me know how to proceed with the payment.`;
-          const tgLink = `https://t.me/${telegramUsername}?text=${message}`;
-
-          card.innerHTML = `
+                card.innerHTML = `
                     <div class="card-price">${product.price}</div>
                     <div class="badge ${product.warrantyType}">${product.warranty}</div>
                     <h2 class="card-title">${product.name}</h2>
                     <p class="card-desc">${product.desc}</p>
                     <a href="${tgLink}" target="_blank" class="btn-order">Order via Telegram</a>
                 `;
-          grid.appendChild(card);
-        });
-      }
+                grid.appendChild(card);
+            });
+        }
 
-      function filterData(category) {
-        const buttons = document.querySelectorAll(".filter-btn");
-        buttons.forEach((btn) => btn.classList.remove("active"));
-        event.target.classList.add("active");
-        renderProducts(category);
-      }
+        function filterData(category) {
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            renderProducts(category);
+        }
 
-      renderProducts("all");
+        renderProducts('all');
     </script>
   </body>
 </html>
